@@ -1,24 +1,27 @@
-# Java
-target/
-*.class
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+*.iws
+*.ipr
+backend/.idea/
 
-# IntelliJ
-.idea/
-*.iml
-
-# VSCode
-.vscode/
-
-# Node
-node_modules/
-
-# Environment
 .env
+.env.local
+backend/src/main/resources/application-prod.properties
 
-# Logs
-logs/
-*.log
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
 
-# OS
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+
+*.log
+logs/
